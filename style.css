@@ -131,11 +131,16 @@ button {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 
     text-align: center;
-    font-size: 15px;    
+    font-size: 18px;    
 
-    height: 30px;
+    height: 40px;
+    align-items: stretch;
 }
 
 .selected {
     border-bottom: solid gray 3px;
+}
+
+#sub_icons i {
+    padding-top: 5px;
 }
